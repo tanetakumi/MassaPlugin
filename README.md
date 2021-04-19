@@ -23,3 +23,7 @@ class MassaLobbyPlugin extends JavaPlugin implements Listener{
  クラスの記述
 }
 ```
+registerEventsが必要
+```
+getServer().getPluginManager().registerEvents(this,this);
+```
