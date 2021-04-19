@@ -19,5 +19,7 @@ pom.xml はこう記述するべき
 EventHandlerを使うなら
 class に継承が必要
 ```
-implements Listener
+class MassaLobbyPlugin extends JavaPlugin implements Listener{
+ クラスの記述
+}
 ```
