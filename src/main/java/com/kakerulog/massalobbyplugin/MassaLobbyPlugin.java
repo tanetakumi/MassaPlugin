@@ -1,5 +1,6 @@
 package com.kakerulog.massalobbyplugin;
 
+import net.kyori.adventure.text.Component;
 import org.bukkit.Location;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -11,7 +12,7 @@ public final class MassaLobbyPlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        getServer().getPluginManager().registerEvents(this,this);
     }
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
