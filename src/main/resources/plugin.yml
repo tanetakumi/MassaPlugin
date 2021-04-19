@@ -1,0 +1,4 @@
+name: MassaLobbyPlugin
+version: ${project.version}
+main: com.kakerulog.massalobbyplugin.MassaLobbyPlugin
+api-version: 1.16
